@@ -1,0 +1,68 @@
+.single-item {
+  width: 100%;
+  height: 70vh;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+.single-item .carousel-item {
+  width: 25%;
+  height: 70vh;
+}
+
+.single-item .carousel-item h2 {
+  text-align: center;
+}
+
+.carousel-item.first-item, .items.first-item {
+  background-color: salmon;
+}
+
+.carousel-item.second-item, .items.second-item {
+  background-color: gold;
+}
+
+.carousel-item.third-item, .items.third-item {
+  background-color: dodgerblue;
+}
+
+.carousel-item.fourth-item, .items.fourth-item {
+  background-color: grey;
+}
+
+.carousel-item.fifth-item, .items.fifth-item {
+  background-color: tomato;
+}
+
+.items-carousel {
+  height: 150px;
+  width: 100%;
+}
+
+.items-carousel .items {
+  height: 150px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.items-carousel .items:last-child {
+  margin-right: 0px;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: white;
+}
+
+.slick-prev {
+  width: 55px;
+  height: 150px;
+  left: 0;
+  z-index: 1000;
+}
+
+.slick-next {
+  width: 55px;
+  height: 150px;
+  right: 0;
+  z-index: 1000;
+}
