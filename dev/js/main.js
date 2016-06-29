@@ -5,6 +5,7 @@
 		});
 		$('.items-carousel').slick({
 			slidesToShow: 5,
+			prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
 			slidesToScroll: 1,
 			asNavFor: '.single-item',
 			dots: false,
@@ -43,7 +44,7 @@
 							arrows: true
 						}
 					}
-				]
+			]
 
 		});
 	})
